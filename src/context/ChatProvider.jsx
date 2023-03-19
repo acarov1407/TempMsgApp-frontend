@@ -27,8 +27,6 @@ function ChatProvider({ children }) {
 
     useEffect(() => {
         loadChat();
-        console.log(socket);
-        console.log(import.meta.env.VITE_BACKEND_URL)
     }, []);
 
     useEffect(() => {
