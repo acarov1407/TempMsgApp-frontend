@@ -1,0 +1,64 @@
+.message__container{
+  display: flex;
+}
+
+.message {
+  border-radius: 1rem;
+  color: white;
+  padding: 1.2rem 2rem;
+  /* max-width: 45%; */
+  position: relative;
+  display: flex;
+  gap: 1rem;
+
+}
+
+.message p.author {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--light_blue);
+  margin: 0;
+  padding-bottom: 0.5rem;
+}
+
+.message p.text {
+  margin: 0;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.log{
+  margin: 2rem 0 !important;
+  color:var(--dark_gray);
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+
+
+.owner {
+  justify-content: flex-end;
+}
+
+.time{
+  font-size: 1.1rem;
+  color: var(--gray);
+  align-self: flex-end;
+}
+
+.mt-2{
+  margin-top: 2rem;
+}
+
+.mt-0-3{
+  margin-top: 0.4rem;
+}
+
+.bg-owner{
+  background-color: var(--deep_dark_blue);
+}
+
+.bg-external{
+  background-color: #343a40;
+}
+

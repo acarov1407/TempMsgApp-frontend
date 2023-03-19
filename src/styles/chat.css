@@ -1,0 +1,123 @@
+.chat__container {
+    display: flex;
+    justify-content: center;
+    margin: 8rem auto 0 auto;
+}
+
+.chat {
+    display: grid;
+    flex: 1;
+    max-width: 60rem;
+    border-left: 10px solid #404040;
+    border-right: 10px solid #404040;
+    /* margin: 8rem auto 0 auto; */
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+
+}
+
+.chat p {
+    margin: 0;
+}
+
+.chat__top {
+    background-color: #404040;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat__top-left{
+    display: flex;
+    gap: 1rem;
+    color: var(--gray);
+}
+
+.chat__input-edit{
+    width: 20rem;
+    color: var(--white);
+    background-color: var(--primary_color);
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+}
+
+.chat__input-edit:focus{
+    outline: none;
+}
+
+.chat__button{
+    all: unset;
+    height: 2.5rem;
+    width: 2.5rem;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+
+.chat__button:hover{
+    color: var(--blue);
+}
+
+.chat__members-icon {
+    all: unset;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--gray);
+    cursor: pointer;
+    transition: color .3s;
+}
+
+.chat__members-icon:hover {
+    color: var(--blue);
+}
+
+
+.chat__body {
+    padding: 3rem;
+    height: 50rem;
+    overflow-y: scroll;
+}
+
+.chat__bottom {
+    padding: 2rem 1rem;
+    background-color: #404040;
+}
+
+.chat__members{
+    padding: 2rem 4rem;
+    border-top: 10px solid #404040;
+    border-right: 10px solid #404040;
+    border-bottom: 10px solid #404040;
+    margin-left: -1rem;
+}
+
+.chat__members-top{
+    border-bottom: 2px solid #404040;
+    padding-bottom: 1rem;
+}
+
+.chat__members p{
+    margin: 0;
+}
+
+.member__container{
+    display: grid;
+    margin-top: 4rem;
+    gap: 2rem;
+    overflow-y: scroll;
+    max-height: 50rem;
+}
+
+.member {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.member__username{
+    font-size: 1.6rem;
+    color: var(--secondary_gray);
+}
