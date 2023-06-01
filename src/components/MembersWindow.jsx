@@ -16,7 +16,6 @@ function MembersWindow() {
                 {
                     members.map(_user => <Member key={_user.id} member={_user} />)
                 }
-
             </div>
         </div>
     )
