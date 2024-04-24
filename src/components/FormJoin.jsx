@@ -15,7 +15,7 @@ function FormJoin() {
         e.preventDefault();
 
         if (chatCode.trim() === '' || isNaN(chatCode.trim())) {
-            setAlert('Debes introducir un código de chat válido');
+            setAlert('You need to enter a valid chat code');
             return;
         }
 
@@ -32,7 +32,7 @@ function FormJoin() {
                 existAlert && <Alert msg={alert} />
             }
             <div>
-                <label htmlFor="chat-code">Ingresa el código del chat</label>
+                <label htmlFor="chat-code">Enter chat code</label>
                 <input
                     className="join__form-code"
                     type="number"
@@ -45,7 +45,7 @@ function FormJoin() {
             <input
                 className="join__form-submit"
                 type="submit"
-                value="Unirse"
+                value="Join"
             />
         </form>
     )

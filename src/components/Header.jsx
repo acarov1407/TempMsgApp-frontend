@@ -31,7 +31,7 @@ function Header() {
           className="header__logout"
           onClick={handleClickLogout}
         >
-          Cerrar Sesión
+          Logout
         </button>
       </div>
 

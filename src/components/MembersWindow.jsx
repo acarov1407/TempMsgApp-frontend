@@ -10,7 +10,7 @@ function MembersWindow() {
     return (
         <div className="chat__members">
             <div className="chat__members-top">
-                <p>Miembros Activos</p>
+                <p>Active members</p>
             </div>
             <div className="member__container">
                 {

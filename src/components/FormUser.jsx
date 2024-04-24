@@ -23,7 +23,7 @@ function FormUser() {
 
   const handleClickCreate = () => {
     if (!validateUser()) {
-      setAlert('Debes introducir un nombre de usuario');
+      setAlert('You need to enter an username');
       return;
     }
 
@@ -36,7 +36,7 @@ function FormUser() {
   const handleClickJoin = () => {
     
     if (!validateUser()) {
-      setAlert('Debes introducir un nombre de usuario');
+      setAlert('You need to enter an username');
       return;
     }
     setAlert('');
@@ -50,20 +50,20 @@ function FormUser() {
         existAlert && <Alert msg={alert} />
       }
       <div>
-        <label htmlFor="username" className="user__form-label">Nombre de usuario:</label>
+        <label htmlFor="username" className="user__form-label">Username:</label>
         <input
           className="user__form-input"
           type="text"
           id="username"
           name="username"
-          placeholder="Tu nombre de usuario"
+          placeholder="Your username"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
         />
       </div>
       <div className="user__form-submits">
-        <button type="button" className="user__form-submit" onClick={handleClickCreate}>Crear Chat</button>
-        <button type="button" className="user__form-submit" onClick={handleClickJoin}>Unirse a un Chat</button>
+        <button type="button" className="user__form-submit" onClick={handleClickCreate}>Create chat</button>
+        <button type="button" className="user__form-submit" onClick={handleClickJoin}>Join chat</button>
       </div>
 
     </form>

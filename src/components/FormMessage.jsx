@@ -41,7 +41,7 @@ function FormMessage() {
             <input
                 className="form__message-input"
                 type="text"
-                placeholder="Escribe un mensaje aquí"
+                placeholder="Write a message here"
                 value={messageText}
                 onChange={(e) => setMessageText(e.target.value)}
 

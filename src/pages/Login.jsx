@@ -7,7 +7,7 @@ function Login() {
         <main className="userLogin">
             <div className="container userLogin__content">
                 <h1 className="userLogin__title">TempMsgApp</h1>
-                <h3 className="userLogin__subtitle">Mensajería instantánea y sin rastros</h3>
+                <h3 className="userLogin__subtitle">Instant and traceless messaging</h3>
                 <FormUser />
             </div>
 

@@ -43,7 +43,7 @@ function Chat() {
     }
 
     if(chatName === ''){
-      alert('El nombre del chat no puede estar vacio!');
+      alert('Chat name cannot be empty');
       return;
     }
 
@@ -53,7 +53,7 @@ function Chat() {
   }
 
 
-  if (isLoadingChat) return <p>Cargando</p>
+  if (isLoadingChat) return <p>Loading</p>
 
   return (
     <>
@@ -72,7 +72,7 @@ function Chat() {
                   value={chatName}
                   onChange={(e) => setChatName(e.target.value)}
                   autoFocus={true}
-                  placeholder="Nuevo nombre de chat"
+                  placeholder="New chat name"
                   />
                 </form>
                 :
